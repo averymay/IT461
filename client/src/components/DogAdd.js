@@ -7,7 +7,7 @@ const DogAdd = ({addHandler}) => {
     const formHandler = (e) => {
         e.preventDefault();
         if (!name) {
-            alert('Name is required!');
+            alert("Name is required!");
             return;
         }
         addHandler({id: 0, name});
